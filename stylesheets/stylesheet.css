@@ -50,12 +50,13 @@ body {
 	margin: auto;
 }
 #links {
+	display: flex;
 	margin: 7.5% 16%;
 	position: fixed;
 	width: 4.5%;
+	flex-direction: column;
 }
 #links img {
-	display: block;
 	width: 100%;
 	margin-bottom: 20%;
 }
@@ -81,6 +82,7 @@ a:hover {
 		width: 86%;
 	}
 	#links {
+		display: block;
 		position: static;
 		width: 100%;
 		margin: 2% auto;
@@ -89,6 +91,5 @@ a:hover {
 	#links img {
 		width: 7%;
 		margin: 0 1%;
-		display: inline;
 	}
 }
