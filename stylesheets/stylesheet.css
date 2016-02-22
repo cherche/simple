@@ -28,11 +28,22 @@ body {
 	-webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.33);
 	-moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.33);
 	box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.33);
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+	-ms-word-break: break-all;
+	word-break: break-all;
+	word-break: break-word;
 }
 #main code {
 	background-color: #eee;
 	font-size: 1.1vmax;
 	font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
 }
 #main pre code {
 	border-radius: 0.5vmax;
@@ -40,6 +51,8 @@ body {
 	padding: 15px;
 	margin: 0;
 	overflow-x: auto;
+	-ms-word-break: normal;
+	word-break: normal;
 }
 #main img {
 	max-width: 100%;
